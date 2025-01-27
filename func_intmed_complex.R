@@ -258,7 +258,7 @@ int_noMYMIBoot_fun <- function(dat,setseed) {
   
   # Define the function for parallel processing 
   parallel_processing <- function(j) {
-    impdataset <- data.frame(impdatasets[[j]])
+    impdataset <- as.data.table(impdatasets[[j]])
     out <- intmed_fun(dat = impdataset)
     out
   }
@@ -331,7 +331,7 @@ int_noYMIBoot_fun <- function(dat,setseed) {
   
   # Define the function for parallel processing 
   parallel_processing <- function(j) {
-    impdataset <- data.frame(impdatasets[[j]])
+    impdataset <- as.data.table(impdatasets[[j]])
     out <- intmed_fun(dat = impdataset)
     out
   }
@@ -400,7 +400,7 @@ int_nointMIBoot_fun <- function(dat,setseed) {
   
   # Define the function for parallel processing 
   parallel_processing <- function(j) {
-    impdataset <- data.frame(impdatasets[[j]])
+    impdataset <- as.data.table(impdatasets[[j]])
     out <- intmed_fun(dat = impdataset)
     out
   }
@@ -495,7 +495,7 @@ int_McompMIBoot_fun <- function(dat,setseed) {
   
   # Define the function for parallel processing 
   parallel_processing <- function(j) {
-    impdataset <- data.frame(impdatasets[[j]])
+    impdataset <- as.data.table(impdatasets[[j]])
     out <- intmed_fun(dat = impdataset)
     out
   }
@@ -630,7 +630,7 @@ int_YcompMIBoot_fun <- function(dat,setseed) {
   
   # Define the function for parallel processing 
   parallel_processing <- function(j) {
-    impdataset <- data.frame(impdatasets[[j]])
+    impdataset <- as.data.table(impdatasets[[j]])
     out <- intmed_fun(dat = impdataset)
     out
   }
@@ -780,7 +780,7 @@ int_higherintMIBoot_fun <- function(dat,setseed) {
   
   # Define the function for parallel processing 
   parallel_processing <- function(j) {
-    impdataset <- data.frame(impdatasets[[j]])
+    impdataset <- as.data.table(impdatasets[[j]])
     out <- intmed_fun(dat = impdataset)
     out
   }
@@ -893,7 +893,7 @@ int_smcfcsMIBoot_fun <- function(dat,setseed) {
   
   # Define the function for parallel processing 
   parallel_processing <- function(j) {
-    impdataset <- data.frame(impdatasets[[j]])
+    impdataset <- as.data.table(impdatasets[[j]])
     out <- intmed_fun(dat = impdataset)
     out
   }
