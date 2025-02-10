@@ -4,18 +4,18 @@
 #############################R SCRIPT DESCRIPTION############################### 
 #File name: intmed_func_complex
 #Purpose: This is R script for functions for intventional mediation analysis:
-#           noMYMIBoot 
-#           noMYBootMI
+#           noMYMIBoot (noLZYMIBoot in the manuscript) 
+#           noMYBootMI (noLZYBootMI in the manuscript) 
 #           noYMIBoot 
 #           noYBootMI
 #           nointMIBoot 
 #           nointBootMI
-#           McompMIBoot   
-#           McompBootMI
-#           YcompMIBoot 
-#           YcompBootMI
-#           higherintMIBoot 
-#           higherintBootMI
+#           McompMIBoot (LZintMIBoot in the manuscript)
+#           McompBootMI (LZintBootMI in the manuscript)
+#           YcompMIBoot (YintMIBoot in the manuscript)
+#           YcompBootMI (YintBootMI in the manuscript)
+#           higherintMIBoot (allintMIBoot in the manuscript)
+#           higherintBootMI (allintBootMI in the manuscript)
 #           smcfcsMIBoot  
 #           smcfcsBootMI  
 #Author:    Ghazaleh Dashti 
